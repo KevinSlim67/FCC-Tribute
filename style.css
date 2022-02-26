@@ -1,0 +1,288 @@
+body {
+    background-color: rgb(250, 245, 245);
+    margin: 0 auto;
+    font-family: Tahoma, Geneva, sans-serif;
+    color: #000000;
+    font-weight: 500;
+    font-size: 1.52vw;
+    text-align: justify;
+}
+
+header {
+    margin: 0 auto;
+    height: auto;
+}
+
+nav {
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    position: relative;
+    background-color: black;
+    height: 7.776049766718507vh;
+    width: 100%;
+    z-index: 20;
+}
+
+
+nav button {
+    position: relative;
+    color: rgb(230, 225, 218);
+    text-shadow: 2px 1px 1px rgba(34, 31, 28, 0.6);
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 2.021772939346812vh;
+    letter-spacing: 0px;
+    word-spacing: 0.3110419906687403vh;
+    font-weight: 700;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: uppercase;
+
+    background-color: transparent;
+    border-color: transparent;
+
+    margin: 0.15552099533437014vh;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 3.1104199066874028vh;
+    padding-right: 3.1104199066874028vh;
+    height: 100%;
+
+}
+
+nav button:hover {
+    background-color: #252726;
+    text-decoration: underline rgb(255, 255, 255);
+    text-underline-offset: 0.7776049766718507vh;
+}
+
+header #tribute {
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: rgb(0, 0, 0);
+    height: 71.53965785381027vh;
+    width: 100%;
+    z-index: 20;
+    padding-top: 2%;
+}
+
+header #image {
+    display: flex;
+    align-items: flex-end;
+    max-width: auto;
+    height: auto;
+}
+
+header #alan-turing-image {
+    padding-bottom: 0%;
+    max-width: 100%;
+    height: auto;
+    
+}
+
+header #tribute-text {
+    margin-left: 5%;
+    margin-bottom: 7%;
+    width: auto;
+    height: auto;
+    align-self: center;
+    text-align: center;
+}
+
+header #title {
+    position: relative;
+    font-family: Tahoma, Geneva, sans-serif;
+    letter-spacing: 0px;
+    word-spacing: 0.15552099533437014vh;
+    color: #f8f8f8;
+    font-weight: 700;
+    font-size: 9.331259720062208vh;
+}
+
+header #tribute-info {
+    position: relative;
+    font-family: Tahoma, Geneva, sans-serif;
+    letter-spacing: 0px;
+    word-spacing: 0.15552099533437014vh;
+    color: #f8f8f8;
+    font-weight: 550;
+    font-size: 3.576982892690513vh;
+    margin-bottom: 10%;
+}
+
+header q {
+    color: white;
+    font-size: 3.1104199066874028vh;
+}
+
+header h3 {
+    position: relative;
+    font-family: Tahoma, Geneva, sans-serif;
+    letter-spacing: 0px;
+    word-spacing: 0.15552099533437014vh;
+    color: #f8f8f8;
+    font-weight: 600;
+    font-size: 3.1104199066874028vh;
+}
+
+#main {
+    margin: 5%;
+    height: 100%;
+    padding: 3%;
+    background-color:rgb(230, 225, 218);
+    border-radius: 5px;
+}
+
+main h2 {
+    position: relative;
+    font-family: Tahoma, Geneva, sans-serif;
+    letter-spacing: 0px;
+    word-spacing: 0.15552099533437014vh;
+    color: #000000;
+    font-weight: 700;
+    font-size: 6.2208398133748055vh;
+}
+
+main #about {
+    color:rgb(0, 0, 0);
+    width: 100%;
+}
+
+.section {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+
+#timeline {
+    padding-left: 5%;
+    padding-right: 8%;
+    padding-bottom: 1%;
+}
+
+main #timeline p {
+    font-size: 2.6vh;
+}
+
+.p1 {
+    width: 47%;
+}
+
+.p2 {
+    width: 47%;
+}
+
+.flexbox {
+    display: flex;
+    flex-direction: row;
+    width: 0 auto;
+    height: 0 auto;
+}
+
+.flexbox #p1-1936-1938 {
+    display: flex;
+    width: 30%;
+    padding-right: 10%;
+    align-items: center;
+}
+
+main img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    align-items: center;
+    justify-content: center;
+}
+
+.flexbox #img-div {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+/* I do not approve of the ID name, but it's here to fill the FCC project requirements */
+
+.flexbox #img-caption {
+    font-size: 2.021772939346812vh;
+    color:rgb(134, 128, 128);
+    text-align: center;
+}
+/* I do not approve of the ID name, but it's here to fill the FCC project requirements */
+
+.flexbox #img-div2 {
+    max-width: 40%;
+    max-height: 40%;
+}
+/* I do not approve of ID the name, but it's here to fill the FCC project requirements */
+
+.flexbox .img-caption {
+    font-size: 2.021772939346812vh;
+    color:rgb(134, 128, 128);
+    text-align: center;
+}
+/* I do not approve of the ID name, but it's here to fill the FCC project requirements */
+
+.flexbox .image {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.flexbox #p2-1938 {
+    display: flex;
+    width: 60%;
+    padding-left: 5%;
+    align-items: center;
+}
+
+.flexbox #p2-1947 {
+    display: flex;
+    width: 42%;
+    align-items: center;
+}
+
+.flexbox #img-div3 {
+    width: 35%;
+    margin-right: 5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 5%;
+}
+
+.flexbox #p1-1949 {
+    display: flex;
+    width: 60%;
+    padding-right: 5%;
+    align-items: center;
+}
+
+.flexbox #img-div4 {
+    width: 30%;
+}
+main #quotes {
+    margin: 4%;
+}
+
+blockquote {
+    font-family: Fondamento, helvetica;
+    background-color: rgb(236, 232, 227);
+    border-width: 0.15552099533437014vh;
+    padding: 8px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px rgba(156, 151, 151, 0.212);
+    padding: 1%;
+}
+
+hr {
+    border-style: solid;
+    color: rgb(0, 0, 0);
+}
+
+#end-note {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+}
